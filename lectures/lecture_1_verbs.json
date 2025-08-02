@@ -1,0 +1,23 @@
+{
+     "Lecture 1 – 100 Verbs": {
+        "essere": "sein", "avere": "haben", "fare": "machen", "dire": "sagen", "potere": "können",
+        "andare": "gehen", "vedere": "sehen", "dare": "geben", "sapere": "wissen", "volere": "wollen",
+        "dovere": "müssen", "parlare": "sprechen", "trovare": "finden", "lasciare": "lassen", "prendere": "nehmen",
+        "mettere": "stellen", "pensare": "denken", "sentire": "hören", "portare": "tragen", "arrivare": "ankommen",
+        "credere": "glauben", "tenere": "halten", "guardare": "anschauen", "cominciare": "beginnen", "vivere": "leben",
+        "finire": "beenden", "capire": "verstehen", "chiedere": "fragen", "entrare": "eintreten", "lavorare": "arbeiten",
+        "scrivere": "schreiben", "mangiare": "essen", "giocare": "spielen", "studiare": "studieren", "aprire": "öffnen",
+        "chiudere": "schließen", "correre": "laufen", "camminare": "gehen", "comprare": "kaufen", "pagare": "bezahlen",
+        "alzarsi": "aufstehen", "sedersi": "sich setzen", "vestirsi": "sich anziehen", "lavarsi": "sich waschen", "ricordare": "erinnern",
+        "dormire": "schlafen", "guidare": "fahren", "telefonare": "anrufen", "usare": "benutzen", "provare": "versuchen",
+        "perdere": "verlieren", "vincere": "gewinnen", "cercare": "suchen", "seguire": "folgen",
+        "restare": "bleiben", "salire": "einsteigen", "scendere": "aussteigen", "costruire": "bauen", "spiegare": "erklären",
+        "rispondere": "antworten", "scegliere": "wählen", "piacere": "gefallen", "succedere": "geschehen", "incontrare": "treffen",
+        "diventare": "werden", "nascere": "geboren werden", "morire": "sterben", "rinascere": "wiedergeboren werden", "inviare": "senden",
+        "ricevere": "empfangen", "fermare": "anhalten", "spingere": "drücken",
+        "tirare": "ziehen", "funzionare": "funktionieren", "cambiare": "wechseln", "contare": "zählen", "costare": "kosten",
+        "accendere": "einschalten", "spegnere": "ausschalten", "imparare": "lernen", "insegnare": "unterrichten", "lavare": "waschen",
+        "ascoltare": "zuhören", "preparare": "vorbereiten", "ripetere": "wiederholen", "tradurre": "übersetzen", "pulire": "putzen",
+        "muovere": "bewegen", "giungere": "erreichen", "volare": "fliegen", "piangere": "weinen", "ridere": "lachen"
+    }
+}   
