@@ -120,7 +120,17 @@ class VocabTrainer:
         self.current_word = random.choice(due_words)
         self.word_history.append(self.current_word)
         self.history_index = len(self.word_history) - 1
-        self.word_label.config(text=self.current_word)
+        # Gender-based color logic
+        if self.current_word.startswith(("il ", "lo ", "l’")):
+            color = "blue"
+        elif self.current_word.startswith(("la ", "l’")):
+            color = "red"
+        else:
+            color = "black"
+
+        self.word_label.config(text=self.current_word, fg=color)
+
+    #    self.word_label.config(text=self.current_word)
 
     def previous_word(self, event=None):
         if self.history_index > 0:
