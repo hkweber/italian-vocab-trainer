@@ -1,0 +1,959 @@
+{
+  "essere": {
+    "de": "",
+    "conjugation": {
+      "io": "sono",
+      "tu": "sei",
+      "lui/lei": "è",
+      "noi": "siamo",
+      "voi": "siete",
+      "loro": "sono"
+    }
+  },
+  "avere": {
+    "de": "",
+    "conjugation": {
+      "io": "ho",
+      "tu": "hai",
+      "lui/lei": "ha",
+      "noi": "abbiamo",
+      "voi": "avete",
+      "loro": "hanno"
+    }
+  },
+  "fare": {
+    "de": "",
+    "conjugation": {
+      "io": "faccio",
+      "tu": "fai",
+      "lui/lei": "fa",
+      "noi": "facciamo",
+      "voi": "fate",
+      "loro": "fanno"
+    }
+  },
+  "dire": {
+    "de": "",
+    "conjugation": {
+      "io": "dico",
+      "tu": "dici",
+      "lui/lei": "dice",
+      "noi": "diciamo",
+      "voi": "dite",
+      "loro": "dicono"
+    }
+  },
+  "potere": {
+    "de": "",
+    "conjugation": {
+      "io": "posso",
+      "tu": "puoi",
+      "lui/lei": "può",
+      "noi": "possiamo",
+      "voi": "potete",
+      "loro": "possono"
+    }
+  },
+  "andare": {
+    "de": "",
+    "conjugation": {
+      "io": "vado",
+      "tu": "vai",
+      "lui/lei": "va",
+      "noi": "andiamo",
+      "voi": "andate",
+      "loro": "vanno"
+    }
+  },
+  "vedere": {
+    "de": "",
+    "conjugation": {
+      "io": "vedo",
+      "tu": "vedi",
+      "lui/lei": "vede",
+      "noi": "vediamo",
+      "voi": "vedete",
+      "loro": "vedono"
+    }
+  },
+  "dare": {
+    "de": "",
+    "conjugation": {
+      "io": "do",
+      "tu": "di",
+      "lui/lei": "da",
+      "noi": "diamo",
+      "voi": "date",
+      "loro": "dano"
+    }
+  },
+  "sapere": {
+    "de": "",
+    "conjugation": {
+      "io": "so",
+      "tu": "sai",
+      "lui/lei": "sa",
+      "noi": "sappiamo",
+      "voi": "sapete",
+      "loro": "sanno"
+    }
+  },
+  "volere": {
+    "de": "",
+    "conjugation": {
+      "io": "voglio",
+      "tu": "vuoi",
+      "lui/lei": "vuole",
+      "noi": "vogliamo",
+      "voi": "volete",
+      "loro": "vogliono"
+    }
+  },
+  "dovere": {
+    "de": "",
+    "conjugation": {
+      "io": "devo",
+      "tu": "devi",
+      "lui/lei": "deve",
+      "noi": "dobbiamo",
+      "voi": "dovete",
+      "loro": "devono"
+    }
+  },
+  "parlare": {
+    "de": "",
+    "conjugation": {
+      "io": "parlo",
+      "tu": "parli",
+      "lui/lei": "parla",
+      "noi": "parliamo",
+      "voi": "parlate",
+      "loro": "parlano"
+    }
+  },
+  "trovare": {
+    "de": "",
+    "conjugation": {
+      "io": "trovo",
+      "tu": "trovi",
+      "lui/lei": "trova",
+      "noi": "troviamo",
+      "voi": "trovate",
+      "loro": "trovano"
+    }
+  },
+  "lasciare": {
+    "de": "",
+    "conjugation": {
+      "io": "lascio",
+      "tu": "lascii",
+      "lui/lei": "lascia",
+      "noi": "lasciiamo",
+      "voi": "lasciate",
+      "loro": "lasciano"
+    }
+  },
+  "prendere": {
+    "de": "",
+    "conjugation": {
+      "io": "prendo",
+      "tu": "prendi",
+      "lui/lei": "prende",
+      "noi": "prendiamo",
+      "voi": "prendete",
+      "loro": "prendono"
+    }
+  },
+  "mettere": {
+    "de": "",
+    "conjugation": {
+      "io": "metto",
+      "tu": "metti",
+      "lui/lei": "mette",
+      "noi": "mettiamo",
+      "voi": "mettete",
+      "loro": "mettono"
+    }
+  },
+  "pensare": {
+    "de": "",
+    "conjugation": {
+      "io": "penso",
+      "tu": "pensi",
+      "lui/lei": "pensa",
+      "noi": "pensiamo",
+      "voi": "pensate",
+      "loro": "pensano"
+    }
+  },
+  "sentire": {
+    "de": "",
+    "conjugation": {
+      "io": "sento",
+      "tu": "senti",
+      "lui/lei": "sente",
+      "noi": "sentiamo",
+      "voi": "sentite",
+      "loro": "sentono"
+    }
+  },
+  "portare": {
+    "de": "",
+    "conjugation": {
+      "io": "porto",
+      "tu": "porti",
+      "lui/lei": "porta",
+      "noi": "portiamo",
+      "voi": "portate",
+      "loro": "portano"
+    }
+  },
+  "arrivare": {
+    "de": "",
+    "conjugation": {
+      "io": "arrivo",
+      "tu": "arrivi",
+      "lui/lei": "arriva",
+      "noi": "arriviamo",
+      "voi": "arrivate",
+      "loro": "arrivano"
+    }
+  },
+  "credere": {
+    "de": "",
+    "conjugation": {
+      "io": "credo",
+      "tu": "credi",
+      "lui/lei": "crede",
+      "noi": "crediamo",
+      "voi": "credete",
+      "loro": "credono"
+    }
+  },
+  "tenere": {
+    "de": "",
+    "conjugation": {
+      "io": "teno",
+      "tu": "teni",
+      "lui/lei": "tene",
+      "noi": "teniamo",
+      "voi": "tenete",
+      "loro": "tenono"
+    }
+  },
+  "guardare": {
+    "de": "",
+    "conjugation": {
+      "io": "guardo",
+      "tu": "guardi",
+      "lui/lei": "guarda",
+      "noi": "guardiamo",
+      "voi": "guardate",
+      "loro": "guardano"
+    }
+  },
+  "cominciare": {
+    "de": "",
+    "conjugation": {
+      "io": "comincio",
+      "tu": "comincii",
+      "lui/lei": "comincia",
+      "noi": "cominciiamo",
+      "voi": "cominciate",
+      "loro": "cominciano"
+    }
+  },
+  "vivere": {
+    "de": "",
+    "conjugation": {
+      "io": "vivo",
+      "tu": "vivi",
+      "lui/lei": "vive",
+      "noi": "viviamo",
+      "voi": "vivete",
+      "loro": "vivono"
+    }
+  },
+  "finire": {
+    "de": "",
+    "conjugation": {
+      "io": "finisco",
+      "tu": "finisci",
+      "lui/lei": "finisce",
+      "noi": "finiamo",
+      "voi": "finite",
+      "loro": "finiscono"
+    }
+  },
+  "capire": {
+    "de": "",
+    "conjugation": {
+      "io": "capisco",
+      "tu": "capisci",
+      "lui/lei": "capisce",
+      "noi": "capiamo",
+      "voi": "capite",
+      "loro": "capiscono"
+    }
+  },
+  "chiedere": {
+    "de": "",
+    "conjugation": {
+      "io": "chiedo",
+      "tu": "chiedi",
+      "lui/lei": "chiede",
+      "noi": "chiediamo",
+      "voi": "chiedete",
+      "loro": "chiedono"
+    }
+  },
+  "entrare": {
+    "de": "",
+    "conjugation": {
+      "io": "entro",
+      "tu": "entri",
+      "lui/lei": "entra",
+      "noi": "entriamo",
+      "voi": "entrate",
+      "loro": "entrano"
+    }
+  },
+  "lavorare": {
+    "de": "",
+    "conjugation": {
+      "io": "lavoro",
+      "tu": "lavori",
+      "lui/lei": "lavora",
+      "noi": "lavoriamo",
+      "voi": "lavorate",
+      "loro": "lavorano"
+    }
+  },
+  "scrivere": {
+    "de": "",
+    "conjugation": {
+      "io": "scrivo",
+      "tu": "scrivi",
+      "lui/lei": "scrive",
+      "noi": "scriviamo",
+      "voi": "scrivete",
+      "loro": "scrivono"
+    }
+  },
+  "mangiare": {
+    "de": "",
+    "conjugation": {
+      "io": "mangio",
+      "tu": "mangii",
+      "lui/lei": "mangia",
+      "noi": "mangiiamo",
+      "voi": "mangiate",
+      "loro": "mangiano"
+    }
+  },
+  "giocare": {
+    "de": "",
+    "conjugation": {
+      "io": "gioco",
+      "tu": "gioci",
+      "lui/lei": "gioca",
+      "noi": "giociamo",
+      "voi": "giocate",
+      "loro": "giocano"
+    }
+  },
+  "studiare": {
+    "de": "",
+    "conjugation": {
+      "io": "studio",
+      "tu": "studii",
+      "lui/lei": "studia",
+      "noi": "studiiamo",
+      "voi": "studiate",
+      "loro": "studiano"
+    }
+  },
+  "aprire": {
+    "de": "",
+    "conjugation": {
+      "io": "apro",
+      "tu": "apri",
+      "lui/lei": "apre",
+      "noi": "apriamo",
+      "voi": "aprite",
+      "loro": "aprono"
+    }
+  },
+  "chiudere": {
+    "de": "",
+    "conjugation": {
+      "io": "chiudo",
+      "tu": "chiudi",
+      "lui/lei": "chiude",
+      "noi": "chiudiamo",
+      "voi": "chiudete",
+      "loro": "chiudono"
+    }
+  },
+  "correre": {
+    "de": "",
+    "conjugation": {
+      "io": "corro",
+      "tu": "corri",
+      "lui/lei": "corre",
+      "noi": "corriamo",
+      "voi": "correte",
+      "loro": "corrono"
+    }
+  },
+  "camminare": {
+    "de": "",
+    "conjugation": {
+      "io": "cammino",
+      "tu": "cammini",
+      "lui/lei": "cammina",
+      "noi": "camminiamo",
+      "voi": "camminate",
+      "loro": "camminano"
+    }
+  },
+  "comprare": {
+    "de": "",
+    "conjugation": {
+      "io": "compro",
+      "tu": "compri",
+      "lui/lei": "compra",
+      "noi": "compriamo",
+      "voi": "comprate",
+      "loro": "comprano"
+    }
+  },
+  "pagare": {
+    "de": "",
+    "conjugation": {
+      "io": "pago",
+      "tu": "pagi",
+      "lui/lei": "paga",
+      "noi": "pagiamo",
+      "voi": "pagate",
+      "loro": "pagano"
+    }
+  },
+  "ricordare": {
+    "de": "",
+    "conjugation": {
+      "io": "ricordo",
+      "tu": "ricordi",
+      "lui/lei": "ricorda",
+      "noi": "ricordiamo",
+      "voi": "ricordate",
+      "loro": "ricordano"
+    }
+  },
+  "dormire": {
+    "de": "",
+    "conjugation": {
+      "io": "dormo",
+      "tu": "dormi",
+      "lui/lei": "dorme",
+      "noi": "dormiamo",
+      "voi": "dormite",
+      "loro": "dormono"
+    }
+  },
+  "guidare": {
+    "de": "",
+    "conjugation": {
+      "io": "guido",
+      "tu": "guidi",
+      "lui/lei": "guida",
+      "noi": "guidiamo",
+      "voi": "guidate",
+      "loro": "guidano"
+    }
+  },
+  "telefonare": {
+    "de": "",
+    "conjugation": {
+      "io": "telefono",
+      "tu": "telefoni",
+      "lui/lei": "telefona",
+      "noi": "telefoniamo",
+      "voi": "telefonate",
+      "loro": "telefonano"
+    }
+  },
+  "usare": {
+    "de": "",
+    "conjugation": {
+      "io": "uso",
+      "tu": "usi",
+      "lui/lei": "usa",
+      "noi": "usiamo",
+      "voi": "usate",
+      "loro": "usano"
+    }
+  },
+  "provare": {
+    "de": "",
+    "conjugation": {
+      "io": "provo",
+      "tu": "provi",
+      "lui/lei": "prova",
+      "noi": "proviamo",
+      "voi": "provate",
+      "loro": "provano"
+    }
+  },
+  "perdere": {
+    "de": "",
+    "conjugation": {
+      "io": "perdo",
+      "tu": "perdi",
+      "lui/lei": "perde",
+      "noi": "perdiamo",
+      "voi": "perdete",
+      "loro": "perdono"
+    }
+  },
+  "vincere": {
+    "de": "",
+    "conjugation": {
+      "io": "vinco",
+      "tu": "vinci",
+      "lui/lei": "vince",
+      "noi": "vinciamo",
+      "voi": "vincete",
+      "loro": "vincono"
+    }
+  },
+  "cercare": {
+    "de": "",
+    "conjugation": {
+      "io": "cerco",
+      "tu": "cerci",
+      "lui/lei": "cerca",
+      "noi": "cerciamo",
+      "voi": "cercate",
+      "loro": "cercano"
+    }
+  },
+  "seguire": {
+    "de": "",
+    "conjugation": {
+      "io": "seguo",
+      "tu": "segui",
+      "lui/lei": "segue",
+      "noi": "seguiamo",
+      "voi": "seguite",
+      "loro": "seguono"
+    }
+  },
+  "restare": {
+    "de": "",
+    "conjugation": {
+      "io": "resto",
+      "tu": "resti",
+      "lui/lei": "resta",
+      "noi": "restiamo",
+      "voi": "restate",
+      "loro": "restano"
+    }
+  },
+  "salire": {
+    "de": "",
+    "conjugation": {
+      "io": "salo",
+      "tu": "sali",
+      "lui/lei": "sale",
+      "noi": "saliamo",
+      "voi": "salite",
+      "loro": "salono"
+    }
+  },
+  "scendere": {
+    "de": "",
+    "conjugation": {
+      "io": "scendo",
+      "tu": "scendi",
+      "lui/lei": "scende",
+      "noi": "scendiamo",
+      "voi": "scendete",
+      "loro": "scendono"
+    }
+  },
+  "costruire": {
+    "de": "",
+    "conjugation": {
+      "io": "costruisco",
+      "tu": "costruisci",
+      "lui/lei": "costruisce",
+      "noi": "costruiamo",
+      "voi": "costruite",
+      "loro": "costruiscono"
+    }
+  },
+  "spiegare": {
+    "de": "",
+    "conjugation": {
+      "io": "spiego",
+      "tu": "spiegi",
+      "lui/lei": "spiega",
+      "noi": "spiegiamo",
+      "voi": "spiegate",
+      "loro": "spiegano"
+    }
+  },
+  "rispondere": {
+    "de": "",
+    "conjugation": {
+      "io": "rispondo",
+      "tu": "rispondi",
+      "lui/lei": "risponde",
+      "noi": "rispondiamo",
+      "voi": "rispondete",
+      "loro": "rispondono"
+    }
+  },
+  "scegliere": {
+    "de": "",
+    "conjugation": {
+      "io": "sceglio",
+      "tu": "sceglii",
+      "lui/lei": "sceglie",
+      "noi": "scegliiamo",
+      "voi": "scegliete",
+      "loro": "scegliono"
+    }
+  },
+  "piacere": {
+    "de": "",
+    "conjugation": {
+      "io": "piaco",
+      "tu": "piaci",
+      "lui/lei": "piace",
+      "noi": "piaciamo",
+      "voi": "piacete",
+      "loro": "piacono"
+    }
+  },
+  "succedere": {
+    "de": "",
+    "conjugation": {
+      "io": "succedo",
+      "tu": "succedi",
+      "lui/lei": "succede",
+      "noi": "succediamo",
+      "voi": "succedete",
+      "loro": "succedono"
+    }
+  },
+  "incontrare": {
+    "de": "",
+    "conjugation": {
+      "io": "incontro",
+      "tu": "incontri",
+      "lui/lei": "incontra",
+      "noi": "incontriamo",
+      "voi": "incontrate",
+      "loro": "incontrano"
+    }
+  },
+  "diventare": {
+    "de": "",
+    "conjugation": {
+      "io": "divento",
+      "tu": "diventi",
+      "lui/lei": "diventa",
+      "noi": "diventiamo",
+      "voi": "diventate",
+      "loro": "diventano"
+    }
+  },
+  "nascere": {
+    "de": "",
+    "conjugation": {
+      "io": "nasco",
+      "tu": "nasci",
+      "lui/lei": "nasce",
+      "noi": "nasciamo",
+      "voi": "nascete",
+      "loro": "nascono"
+    }
+  },
+  "morire": {
+    "de": "",
+    "conjugation": {
+      "io": "moro",
+      "tu": "mori",
+      "lui/lei": "more",
+      "noi": "moriamo",
+      "voi": "morite",
+      "loro": "morono"
+    }
+  },
+  "rinascere": {
+    "de": "",
+    "conjugation": {
+      "io": "rinasco",
+      "tu": "rinasci",
+      "lui/lei": "rinasce",
+      "noi": "rinasciamo",
+      "voi": "rinascete",
+      "loro": "rinascono"
+    }
+  },
+  "inviare": {
+    "de": "",
+    "conjugation": {
+      "io": "invio",
+      "tu": "invii",
+      "lui/lei": "invia",
+      "noi": "inviiamo",
+      "voi": "inviate",
+      "loro": "inviano"
+    }
+  },
+  "ricevere": {
+    "de": "",
+    "conjugation": {
+      "io": "ricevo",
+      "tu": "ricevi",
+      "lui/lei": "riceve",
+      "noi": "riceviamo",
+      "voi": "ricevete",
+      "loro": "ricevono"
+    }
+  },
+  "fermare": {
+    "de": "",
+    "conjugation": {
+      "io": "fermo",
+      "tu": "fermi",
+      "lui/lei": "ferma",
+      "noi": "fermiamo",
+      "voi": "fermate",
+      "loro": "fermano"
+    }
+  },
+  "spingere": {
+    "de": "",
+    "conjugation": {
+      "io": "spingo",
+      "tu": "spingi",
+      "lui/lei": "spinge",
+      "noi": "spingiamo",
+      "voi": "spingete",
+      "loro": "spingono"
+    }
+  },
+  "tirare": {
+    "de": "",
+    "conjugation": {
+      "io": "tiro",
+      "tu": "tiri",
+      "lui/lei": "tira",
+      "noi": "tiriamo",
+      "voi": "tirate",
+      "loro": "tirano"
+    }
+  },
+  "funzionare": {
+    "de": "",
+    "conjugation": {
+      "io": "funziono",
+      "tu": "funzioni",
+      "lui/lei": "funziona",
+      "noi": "funzioniamo",
+      "voi": "funzionate",
+      "loro": "funzionano"
+    }
+  },
+  "cambiare": {
+    "de": "",
+    "conjugation": {
+      "io": "cambio",
+      "tu": "cambii",
+      "lui/lei": "cambia",
+      "noi": "cambiiamo",
+      "voi": "cambiate",
+      "loro": "cambiano"
+    }
+  },
+  "contare": {
+    "de": "",
+    "conjugation": {
+      "io": "conto",
+      "tu": "conti",
+      "lui/lei": "conta",
+      "noi": "contiamo",
+      "voi": "contate",
+      "loro": "contano"
+    }
+  },
+  "costare": {
+    "de": "",
+    "conjugation": {
+      "io": "costo",
+      "tu": "costi",
+      "lui/lei": "costa",
+      "noi": "costiamo",
+      "voi": "costate",
+      "loro": "costano"
+    }
+  },
+  "accendere": {
+    "de": "",
+    "conjugation": {
+      "io": "accendo",
+      "tu": "accendi",
+      "lui/lei": "accende",
+      "noi": "accendiamo",
+      "voi": "accendete",
+      "loro": "accendono"
+    }
+  },
+  "spegnere": {
+    "de": "",
+    "conjugation": {
+      "io": "spegno",
+      "tu": "spegni",
+      "lui/lei": "spegne",
+      "noi": "spegniamo",
+      "voi": "spegnete",
+      "loro": "spegnono"
+    }
+  },
+  "imparare": {
+    "de": "",
+    "conjugation": {
+      "io": "imparo",
+      "tu": "impari",
+      "lui/lei": "impara",
+      "noi": "impariamo",
+      "voi": "imparate",
+      "loro": "imparano"
+    }
+  },
+  "insegnare": {
+    "de": "",
+    "conjugation": {
+      "io": "insegno",
+      "tu": "insegni",
+      "lui/lei": "insegna",
+      "noi": "insegniamo",
+      "voi": "insegnate",
+      "loro": "insegnano"
+    }
+  },
+  "lavare": {
+    "de": "",
+    "conjugation": {
+      "io": "lavo",
+      "tu": "lavi",
+      "lui/lei": "lava",
+      "noi": "laviamo",
+      "voi": "lavate",
+      "loro": "lavano"
+    }
+  },
+  "ascoltare": {
+    "de": "",
+    "conjugation": {
+      "io": "ascolto",
+      "tu": "ascolti",
+      "lui/lei": "ascolta",
+      "noi": "ascoltiamo",
+      "voi": "ascoltate",
+      "loro": "ascoltano"
+    }
+  },
+  "preparare": {
+    "de": "",
+    "conjugation": {
+      "io": "preparo",
+      "tu": "prepari",
+      "lui/lei": "prepara",
+      "noi": "prepariamo",
+      "voi": "preparate",
+      "loro": "preparano"
+    }
+  },
+  "ripetere": {
+    "de": "",
+    "conjugation": {
+      "io": "ripeto",
+      "tu": "ripeti",
+      "lui/lei": "ripete",
+      "noi": "ripetiamo",
+      "voi": "ripetete",
+      "loro": "ripetono"
+    }
+  },
+  "pulire": {
+    "de": "",
+    "conjugation": {
+      "io": "pulisco",
+      "tu": "pulisci",
+      "lui/lei": "pulisce",
+      "noi": "puliamo",
+      "voi": "pulite",
+      "loro": "puliscono"
+    }
+  },
+  "muovere": {
+    "de": "",
+    "conjugation": {
+      "io": "muovo",
+      "tu": "muovi",
+      "lui/lei": "muove",
+      "noi": "muoviamo",
+      "voi": "muovete",
+      "loro": "muovono"
+    }
+  },
+  "giungere": {
+    "de": "",
+    "conjugation": {
+      "io": "giungo",
+      "tu": "giungi",
+      "lui/lei": "giunge",
+      "noi": "giungiamo",
+      "voi": "giungete",
+      "loro": "giungono"
+    }
+  },
+  "volare": {
+    "de": "",
+    "conjugation": {
+      "io": "volo",
+      "tu": "voli",
+      "lui/lei": "vola",
+      "noi": "voliamo",
+      "voi": "volate",
+      "loro": "volano"
+    }
+  },
+  "piangere": {
+    "de": "",
+    "conjugation": {
+      "io": "piango",
+      "tu": "piangi",
+      "lui/lei": "piange",
+      "noi": "piangiamo",
+      "voi": "piangete",
+      "loro": "piangono"
+    }
+  },
+  "ridere": {
+    "de": "",
+    "conjugation": {
+      "io": "rido",
+      "tu": "ridi",
+      "lui/lei": "ride",
+      "noi": "ridiamo",
+      "voi": "ridete",
+      "loro": "ridono"
+    }
+  }
+}

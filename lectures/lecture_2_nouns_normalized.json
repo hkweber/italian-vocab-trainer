@@ -1,0 +1,398 @@
+{
+  "il tempo": {
+    "de": "Zeit",
+    "conjugation": {}
+  },
+  "l’anno": {
+    "de": "Jahr",
+    "conjugation": {}
+  },
+  "il giorno": {
+    "de": "Tag",
+    "conjugation": {}
+  },
+  "l’uomo": {
+    "de": "Mann",
+    "conjugation": {}
+  },
+  "la donna": {
+    "de": "Frau",
+    "conjugation": {}
+  },
+  "la cosa": {
+    "de": "Ding",
+    "conjugation": {}
+  },
+  "la vita": {
+    "de": "Leben",
+    "conjugation": {}
+  },
+  "la mano": {
+    "de": "Hand",
+    "conjugation": {}
+  },
+  "la parte": {
+    "de": "Teil",
+    "conjugation": {}
+  },
+  "l’occhio": {
+    "de": "Auge",
+    "conjugation": {}
+  },
+  "il tempo (clima)": {
+    "de": "Wetter",
+    "conjugation": {}
+  },
+  "l’ora": {
+    "de": "Stunde",
+    "conjugation": {}
+  },
+  "la parola": {
+    "de": "Wort",
+    "conjugation": {}
+  },
+  "il posto": {
+    "de": "Ort",
+    "conjugation": {}
+  },
+  "il lavoro": {
+    "de": "Arbeit",
+    "conjugation": {}
+  },
+  "il caso": {
+    "de": "Fall",
+    "conjugation": {}
+  },
+  "il mondo": {
+    "de": "Welt",
+    "conjugation": {}
+  },
+  "il momento": {
+    "de": "Moment",
+    "conjugation": {}
+  },
+  "la famiglia": {
+    "de": "Familie",
+    "conjugation": {}
+  },
+  "il figlio": {
+    "de": "Kind",
+    "conjugation": {}
+  },
+  "la strada": {
+    "de": "Straße",
+    "conjugation": {}
+  },
+  "la voce": {
+    "de": "Stimme",
+    "conjugation": {}
+  },
+  "l’amico": {
+    "de": "Freund",
+    "conjugation": {}
+  },
+  "la gente": {
+    "de": "Leute",
+    "conjugation": {}
+  },
+  "il corpo": {
+    "de": "Körper",
+    "conjugation": {}
+  },
+  "la madre": {
+    "de": "Mutter",
+    "conjugation": {}
+  },
+  "il padre": {
+    "de": "Vater",
+    "conjugation": {}
+  },
+  "la notte": {
+    "de": "Nacht",
+    "conjugation": {}
+  },
+  "la testa": {
+    "de": "Kopf",
+    "conjugation": {}
+  },
+  "il cuore": {
+    "de": "Herz",
+    "conjugation": {}
+  },
+  "l’acqua": {
+    "de": "Wasser",
+    "conjugation": {}
+  },
+  "il fuoco": {
+    "de": "Feuer",
+    "conjugation": {}
+  },
+  "i soldi": {
+    "de": "Geld",
+    "conjugation": {}
+  },
+  "il mese": {
+    "de": "Monat",
+    "conjugation": {}
+  },
+  "la scuola": {
+    "de": "Schule",
+    "conjugation": {}
+  },
+  "la porta": {
+    "de": "Tür",
+    "conjugation": {}
+  },
+  "la città": {
+    "de": "Stadt",
+    "conjugation": {}
+  },
+  "la sera": {
+    "de": "Abend",
+    "conjugation": {}
+  },
+  "la settimana": {
+    "de": "Woche",
+    "conjugation": {}
+  },
+  "la domanda": {
+    "de": "Frage",
+    "conjugation": {}
+  },
+  "la risposta": {
+    "de": "Antwort",
+    "conjugation": {}
+  },
+  "il tono": {
+    "de": "Ton",
+    "conjugation": {}
+  },
+  "il numero": {
+    "de": "Zahl",
+    "conjugation": {}
+  },
+  "il colore": {
+    "de": "Farbe",
+    "conjugation": {}
+  },
+  "il nome": {
+    "de": "Name",
+    "conjugation": {}
+  },
+  "l’aria": {
+    "de": "Luft",
+    "conjugation": {}
+  },
+  "la luce": {
+    "de": "Licht",
+    "conjugation": {}
+  },
+  "l’ombra": {
+    "de": "Schatten",
+    "conjugation": {}
+  },
+  "il cibo": {
+    "de": "Essen",
+    "conjugation": {}
+  },
+  "la bevanda": {
+    "de": "Getränk",
+    "conjugation": {}
+  },
+  "la macchina": {
+    "de": "Auto",
+    "conjugation": {}
+  },
+  "il telefono": {
+    "de": "Telefon",
+    "conjugation": {}
+  },
+  "il libro": {
+    "de": "Buch",
+    "conjugation": {}
+  },
+  "la lettera": {
+    "de": "Brief",
+    "conjugation": {}
+  },
+  "la storia": {
+    "de": "Geschichte",
+    "conjugation": {}
+  },
+  "il giornale": {
+    "de": "Zeitung",
+    "conjugation": {}
+  },
+  "la foto": {
+    "de": "Foto",
+    "conjugation": {}
+  },
+  "il film": {
+    "de": "Film",
+    "conjugation": {}
+  },
+  "la musica": {
+    "de": "Musik",
+    "conjugation": {}
+  },
+  "la lingua": {
+    "de": "Sprache",
+    "conjugation": {}
+  },
+  "il mare": {
+    "de": "Meer",
+    "conjugation": {}
+  },
+  "la montagna": {
+    "de": "Berg",
+    "conjugation": {}
+  },
+  "l’albero": {
+    "de": "Baum",
+    "conjugation": {}
+  },
+  "il fiore": {
+    "de": "Blume",
+    "conjugation": {}
+  },
+  "l’animale": {
+    "de": "Tier",
+    "conjugation": {}
+  },
+  "il cane": {
+    "de": "Hund",
+    "conjugation": {}
+  },
+  "il gatto": {
+    "de": "Katze",
+    "conjugation": {}
+  },
+  "l’uccello": {
+    "de": "Vogel",
+    "conjugation": {}
+  },
+  "il pesce": {
+    "de": "Fisch",
+    "conjugation": {}
+  },
+  "la sedia": {
+    "de": "Stuhl",
+    "conjugation": {}
+  },
+  "il tavolo": {
+    "de": "Tisch",
+    "conjugation": {}
+  },
+  "il letto": {
+    "de": "Bett",
+    "conjugation": {}
+  },
+  "la finestra": {
+    "de": "Fenster",
+    "conjugation": {}
+  },
+  "il muro": {
+    "de": "Wand",
+    "conjugation": {}
+  },
+  "il soffitto": {
+    "de": "Decke",
+    "conjugation": {}
+  },
+  "il pavimento": {
+    "de": "Boden",
+    "conjugation": {}
+  },
+  "l’orologio": {
+    "de": "Uhr",
+    "conjugation": {}
+  },
+  "il vestito": {
+    "de": "Kleid",
+    "conjugation": {}
+  },
+  "la scarpa": {
+    "de": "Schuh",
+    "conjugation": {}
+  },
+  "la borsa": {
+    "de": "Tasche",
+    "conjugation": {}
+  },
+  "il soldato": {
+    "de": "Soldat",
+    "conjugation": {}
+  },
+  "la polizia": {
+    "de": "Polizei",
+    "conjugation": {}
+  },
+  "l’ospedale": {
+    "de": "Krankenhaus",
+    "conjugation": {}
+  },
+  "la farmacia": {
+    "de": "Apotheke",
+    "conjugation": {}
+  },
+  "il medico": {
+    "de": "Arzt",
+    "conjugation": {}
+  },
+  "la malattia": {
+    "de": "Krankheit",
+    "conjugation": {}
+  },
+  "il gioco": {
+    "de": "Spiel",
+    "conjugation": {}
+  },
+  "il giocattolo": {
+    "de": "Spielzeug",
+    "conjugation": {}
+  },
+  "il computer": {
+    "de": "Computer",
+    "conjugation": {}
+  },
+  "il programma": {
+    "de": "Programm",
+    "conjugation": {}
+  },
+  "l’internet": {
+    "de": "Internet",
+    "conjugation": {}
+  },
+  "la pagina": {
+    "de": "Seite",
+    "conjugation": {}
+  },
+  "la password": {
+    "de": "Passwort",
+    "conjugation": {}
+  },
+  "l’account": {
+    "de": "Konto",
+    "conjugation": {}
+  },
+  "il messaggio": {
+    "de": "Nachricht",
+    "conjugation": {}
+  },
+  "l’e-mail": {
+    "de": "E-Mail",
+    "conjugation": {}
+  },
+  "l’utente": {
+    "de": "Benutzer",
+    "conjugation": {}
+  },
+  "il sito": {
+    "de": "Website",
+    "conjugation": {}
+  },
+  "la foto profilo": {
+    "de": "Profilbild",
+    "conjugation": {}
+  }
+}
