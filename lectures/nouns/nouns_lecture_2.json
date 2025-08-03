@@ -1,0 +1,394 @@
+{
+  "il tempo": {
+    "de": "die Zeit",
+    "conjugation": {}
+  },
+  "la mano": {
+    "de": "die Hand",
+    "conjugation": {}
+  },
+  "l'acqua": {
+    "de": "das Wasser",
+    "conjugation": {}
+  },
+  "la strada": {
+    "de": "die Straße",
+    "conjugation": {}
+  },
+  "il giorno": {
+    "de": "der Tag",
+    "conjugation": {}
+  },
+  "la notte": {
+    "de": "die Nacht",
+    "conjugation": {}
+  },
+  "il sole": {
+    "de": "die Sonne",
+    "conjugation": {}
+  },
+  "la luna": {
+    "de": "der Mond",
+    "conjugation": {}
+  },
+  "il mare": {
+    "de": "das Meer",
+    "conjugation": {}
+  },
+  "la casa": {
+    "de": "das Haus",
+    "conjugation": {}
+  },
+  "il cibo": {
+    "de": "das Essen",
+    "conjugation": {}
+  },
+  "la scuola": {
+    "de": "die Schule",
+    "conjugation": {}
+  },
+  "il lavoro": {
+    "de": "die Arbeit",
+    "conjugation": {}
+  },
+  "il libro": {
+    "de": "das Buch",
+    "conjugation": {}
+  },
+  "la penna": {
+    "de": "der Stift",
+    "conjugation": {}
+  },
+  "il treno": {
+    "de": "der Zug",
+    "conjugation": {}
+  },
+  "la macchina": {
+    "de": "das Auto",
+    "conjugation": {}
+  },
+  "il bambino": {
+    "de": "das Kind",
+    "conjugation": {}
+  },
+  "la bambina": {
+    "de": "das Mädchen",
+    "conjugation": {}
+  },
+  "il padre": {
+    "de": "der Vater",
+    "conjugation": {}
+  },
+  "la madre": {
+    "de": "die Mutter",
+    "conjugation": {}
+  },
+  "il fratello": {
+    "de": "der Bruder",
+    "conjugation": {}
+  },
+  "la sorella": {
+    "de": "die Schwester",
+    "conjugation": {}
+  },
+  "il telefono": {
+    "de": "das Telefon",
+    "conjugation": {}
+  },
+  "la finestra": {
+    "de": "das Fenster",
+    "conjugation": {}
+  },
+  "la porta": {
+    "de": "die Tür",
+    "conjugation": {}
+  },
+  "il tavolo": {
+    "de": "der Tisch",
+    "conjugation": {}
+  },
+  "la sedia": {
+    "de": "der Stuhl",
+    "conjugation": {}
+  },
+  "la camera": {
+    "de": "das Zimmer",
+    "conjugation": {}
+  },
+  "la cucina": {
+    "de": "die Küche",
+    "conjugation": {}
+  },
+  "il bagno": {
+    "de": "das Bad",
+    "conjugation": {}
+  },
+  "il vestito": {
+    "de": "das Kleid",
+    "conjugation": {}
+  },
+  "la scarpa": {
+    "de": "der Schuh",
+    "conjugation": {}
+  },
+  "la borsa": {
+    "de": "die Tasche",
+    "conjugation": {}
+  },
+  "la testa": {
+    "de": "der Kopf",
+    "conjugation": {}
+  },
+  "il cuore": {
+    "de": "das Herz",
+    "conjugation": {}
+  },
+  "il sangue": {
+    "de": "das Blut",
+    "conjugation": {}
+  },
+  "la pelle": {
+    "de": "die Haut",
+    "conjugation": {}
+  },
+  "la faccia": {
+    "de": "das Gesicht",
+    "conjugation": {}
+  },
+  "il naso": {
+    "de": "die Nase",
+    "conjugation": {}
+  },
+  "la bocca": {
+    "de": "der Mund",
+    "conjugation": {}
+  },
+  "l'occhio": {
+    "de": "das Auge",
+    "conjugation": {}
+  },
+  "l'orecchio": {
+    "de": "das Ohr",
+    "conjugation": {}
+  },
+  "la voce": {
+    "de": "die Stimme",
+    "conjugation": {}
+  },
+  "il suono": {
+    "de": "der Klang",
+    "conjugation": {}
+  },
+  "la musica": {
+    "de": "die Musik",
+    "conjugation": {}
+  },
+  "la canzone": {
+    "de": "das Lied",
+    "conjugation": {}
+  },
+  "il film": {
+    "de": "der Film",
+    "conjugation": {}
+  },
+  "la televisione": {
+    "de": "der Fernseher",
+    "conjugation": {}
+  },
+  "il computer": {
+    "de": "der Computer",
+    "conjugation": {}
+  },
+  "la tastiera": {
+    "de": "die Tastatur",
+    "conjugation": {}
+  },
+  "il mouse": {
+    "de": "die Maus",
+    "conjugation": {}
+  },
+  "la pagina": {
+    "de": "die Seite",
+    "conjugation": {}
+  },
+  "la parola": {
+    "de": "das Wort",
+    "conjugation": {}
+  },
+  "il nome": {
+    "de": "der Name",
+    "conjugation": {}
+  },
+  "la lingua": {
+    "de": "die Sprache",
+    "conjugation": {}
+  },
+  "la città": {
+    "de": "die Stadt",
+    "conjugation": {}
+  },
+  "il paese": {
+    "de": "das Land",
+    "conjugation": {}
+  },
+  "la montagna": {
+    "de": "der Berg",
+    "conjugation": {}
+  },
+  "il fiume": {
+    "de": "der Fluss",
+    "conjugation": {}
+  },
+  "il lago": {
+    "de": "der See",
+    "conjugation": {}
+  },
+  "il cielo": {
+    "de": "der Himmel",
+    "conjugation": {}
+  },
+  "la stella": {
+    "de": "der Stern",
+    "conjugation": {}
+  },
+  "la nuvola": {
+    "de": "die Wolke",
+    "conjugation": {}
+  },
+  "la pioggia": {
+    "de": "der Regen",
+    "conjugation": {}
+  },
+  "la neve": {
+    "de": "der Schnee",
+    "conjugation": {}
+  },
+  "il vento": {
+    "de": "der Wind",
+    "conjugation": {}
+  },
+  "il fuoco": {
+    "de": "das Feuer",
+    "conjugation": {}
+  },
+  "la terra": {
+    "de": "die Erde",
+    "conjugation": {}
+  },
+  "il giardino": {
+    "de": "der Garten",
+    "conjugation": {}
+  },
+  "il fiore": {
+    "de": "die Blume",
+    "conjugation": {}
+  },
+  "l'albero": {
+    "de": "der Baum",
+    "conjugation": {}
+  },
+  "l'erba": {
+    "de": "das Gras",
+    "conjugation": {}
+  },
+  "il campo": {
+    "de": "das Feld",
+    "conjugation": {}
+  },
+  "la spiaggia": {
+    "de": "der Strand",
+    "conjugation": {}
+  },
+  "la sabbia": {
+    "de": "der Sand",
+    "conjugation": {}
+  },
+  "il bosco": {
+    "de": "der Wald",
+    "conjugation": {}
+  },
+  "il sentiero": {
+    "de": "der Pfad",
+    "conjugation": {}
+  },
+  "la valle": {
+    "de": "das Tal",
+    "conjugation": {}
+  },
+  "il ponte": {
+    "de": "die Brücke",
+    "conjugation": {}
+  },
+  "la piazza": {
+    "de": "der Platz",
+    "conjugation": {}
+  },
+  "la chiesa": {
+    "de": "die Kirche",
+    "conjugation": {}
+  },
+  "l'università": {
+    "de": "die Universität",
+    "conjugation": {}
+  },
+  "il negozio": {
+    "de": "das Geschäft",
+    "conjugation": {}
+  },
+  "il supermercato": {
+    "de": "der Supermarkt",
+    "conjugation": {}
+  },
+  "il mercato": {
+    "de": "der Markt",
+    "conjugation": {}
+  },
+  "il bar": {
+    "de": "die Bar",
+    "conjugation": {}
+  },
+  "il ristorante": {
+    "de": "das Restaurant",
+    "conjugation": {}
+  },
+  "il panino": {
+    "de": "das Sandwich",
+    "conjugation": {}
+  },
+  "la pizza": {
+    "de": "die Pizza",
+    "conjugation": {}
+  },
+  "la pasta": {
+    "de": "die Nudeln",
+    "conjugation": {}
+  },
+  "il gelato": {
+    "de": "das Eis",
+    "conjugation": {}
+  },
+  "la frutta": {
+    "de": "das Obst",
+    "conjugation": {}
+  },
+  "la verdura": {
+    "de": "das Gemüse",
+    "conjugation": {}
+  },
+  "la carne": {
+    "de": "das Fleisch",
+    "conjugation": {}
+  },
+  "il pesce": {
+    "de": "der Fisch",
+    "conjugation": {}
+  },
+  "l'uovo": {
+    "de": "das Ei",
+    "conjugation": {}
+  },
+  "il formaggio": {
+    "de": "der Käse",
+    "conjugation": {}
+  }
+}
