@@ -1,0 +1,34 @@
+{
+  "il fratello":  { "de": ["der Bruder"],            "conjugation": {} },
+  "la villa":     { "de": ["die Villa"],             "conjugation": {} },
+  "la finestra":  { "de": ["das Fenster"],           "conjugation": {} },
+  "il vento":     { "de": ["der Wind"],              "conjugation": {} },
+  "il tempo":     { "de": ["die Zeit", "das Wetter"],"conjugation": {} },
+
+  "la sala da pranzo": { "de": ["das Esszimmer"], "conjugation": {} },
+  "il ramo":           { "de": ["der Ast"],        "conjugation": {} },
+  "l'elce":            { "de": ["die Steineiche"], "conjugation": {} },
+  "il parco":          { "de": ["der Park"],       "conjugation": {} },
+
+  "la tradizione":     { "de": ["die Tradition"],  "conjugation": {} },
+  "la tavola":         { "de": ["der Tisch"],      "conjugation": {} },
+  "la foglia":         { "de": ["das Blatt"],      "conjugation": {} },
+  "il piatto":         { "de": ["der Teller"],     "conjugation": {} },
+  "la lumaca":         { "de": ["die Schnecke"],   "conjugation": {} },
+
+  "la disubbidienza":  { "de": ["der Ungehorsam"], "conjugation": {} },
+  "il capotavola":     { "de": ["das Kopfende"],   "conjugation": {} },
+  "il barone":         { "de": ["der Baron"],      "conjugation": {} },
+  "la parrucca":       { "de": ["die Perücke"],    "conjugation": {} },
+
+  "l'orecchio":        { "de": ["das Ohr"],        "conjugation": {} },
+  "la cosa":           { "de": ["die Sache"],      "conjugation": {} },
+  "l'abate":           { "de": ["der Abt"],        "conjugation": {} },
+  "l'elemosiniere":    { "de": ["der Almosenier"], "conjugation": {} },
+
+  "il ragazzo":        { "de": ["der Junge"],      "conjugation": {} },
+  "la generalessa":    { "de": ["die Generalin"],  "conjugation": {} },
+  "la madre":          { "de": ["die Mutter"],     "conjugation": {} },
+  "la sorella":        { "de": ["die Schwester"],  "conjugation": {} },
+  "la monaca":         { "de": ["die Nonne"],      "conjugation": {} }
+}

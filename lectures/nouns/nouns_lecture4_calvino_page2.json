@@ -1,0 +1,41 @@
+{
+  "la tavola":         { "de": ["der Tisch", "die Tafel"],           "conjugation": {} },
+  "il padre":          { "de": ["der Vater"],                        "conjugation": {} },
+  "il cavaliere":      { "de": ["der Ritter"],                       "conjugation": {} },
+  "l'avvocato":        { "de": ["der Anwalt"],                       "conjugation": {} },
+  "l'amministratore":  { "de": ["der Verwalter"],                    "conjugation": {} },
+  "l'idraulico":       { "de": ["der Installateur", "der Hydrauliker"], "conjugation": {} },
+  "il podere":         { "de": ["das Gut", "das Anwesen"],           "conjugation": {} },
+
+  "il mese":           { "de": ["der Monat"],                        "conjugation": {} },
+  "l'anno":            { "de": ["das Jahr"],                         "conjugation": {} },
+  "il desco":          { "de": ["die Tafel", "der Esstisch"],        "conjugation": {} },
+  "la promozione":     { "de": ["die Beförderung", "der Aufstieg"],  "conjugation": {} },
+  "la cuccagna":       { "de": ["das Schlaraffenland", "die Sorglosigkeit"], "conjugation": {} },
+
+  "il pasto":          { "de": ["die Mahlzeit"],                     "conjugation": {} },
+  "la stanzetta":      { "de": ["das Kämmerchen"],                   "conjugation": {} },
+  "l'abate":           { "de": ["der Abt"],                          "conjugation": {} },
+  "il vecchietto":     { "de": ["das Männlein", "der alte Mann"],    "conjugation": {} },
+  "la fama":           { "de": ["der Ruf"],                          "conjugation": {} },
+
+  "l'uomo":            { "de": ["der Mann", "der Mensch"],           "conjugation": {} },
+  "la severità":       { "de": ["die Strenge"],                      "conjugation": {} },
+  "la difficoltà":     { "de": ["die Schwierigkeit"],                "conjugation": {} },
+  "la fatalità":       { "de": ["das Verhängnis", "das Schicksal"],  "conjugation": {} },
+
+  "il cucchiaio":      { "de": ["der Löffel"],                       "conjugation": {} },
+  "la minestra":       { "de": ["die Suppe"],                        "conjugation": {} },
+  "il vuoto":          { "de": ["die Leere"],                        "conjugation": {} },
+  "la lingua":         { "de": ["die Zunge", "die Sprache"],         "conjugation": {} },
+  "il sorso":          { "de": ["der Schluck"],                      "conjugation": {} },
+
+  "la pietanza":       { "de": ["das Gericht", "die Speise"],        "conjugation": {} },
+  "la pera":           { "de": ["die Birne"],                        "conjugation": {} },
+  "il pollo":          { "de": ["das Huhn"],                         "conjugation": {} },
+  "il gomito":         { "de": ["der Ellbogen"],                     "conjugation": {} },
+
+  "la sorella":        { "de": ["die Schwester"],                    "conjugation": {} },
+  "la sgridata":       { "de": ["die Rüge", "der Anschiss"],         "conjugation": {} },
+  "il castigo":        { "de": ["die Strafe"],                       "conjugation": {} }
+}
