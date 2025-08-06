@@ -1,0 +1,49 @@
+{
+  "il terremoto":      { "de": ["das Erdbeben"],         "conjugation": {} },
+  "il vulcano":        { "de": ["der Vulkan"],           "conjugation": {} },
+  "la terra":          { "de": ["die Erde"],             "conjugation": {} },
+  "la scossa":         { "de": ["die Erschütterung"],    "conjugation": {} },
+  "la cintura":        { "de": ["der Gürtel"],           "conjugation": {} },
+
+  "l’autorità":        { "de": ["die Behörde"],          "conjugation": {} },
+  "l’attività":        { "de": ["die Aktivität"],        "conjugation": {} },
+  "la settimana":      { "de": ["die Woche"],            "conjugation": {} },
+  "la sorpresa":       { "de": ["die Überraschung"],     "conjugation": {} },
+  "l’onda":            { "de": ["die Welle"],            "conjugation": {} },
+
+  "la costa":          { "de": ["die Küste"],            "conjugation": {} },
+  "il villaggio":      { "de": ["das Dorf"],             "conjugation": {} },
+  "il colono":         { "de": ["der Siedler"],          "conjugation": {} },
+  "il manifestante":   { "de": ["der Demonstrant"],      "conjugation": {} },
+  "la pistola":        { "de": ["die Pistole"],          "conjugation": {} },
+
+  "la popolazione":    { "de": ["die Bevölkerung"],      "conjugation": {} },
+  "la strategia":      { "de": ["die Strategie"],        "conjugation": {} },
+  "l’area":            { "de": ["das Gebiet"],           "conjugation": {} },
+  "la resistenza":     { "de": ["der Widerstand"],       "conjugation": {} },
+  "l’evento":          { "de": ["das Ereignis"],         "conjugation": {} },
+
+  "l’organizzazione":  { "de": ["die Organisation"],     "conjugation": {} },
+  "la sicurezza":      { "de": ["die Sicherheit"],       "conjugation": {} },
+  "la zona":           { "de": ["die Zone"],             "conjugation": {} },
+  "il concerto":       { "de": ["das Konzert"],          "conjugation": {} },
+  "la veglia":         { "de": ["die Mahnwache"],        "conjugation": {} },
+
+  "la messa":          { "de": ["die Messe (Gottesdienst)"], "conjugation": {} },
+  "l’investimento":    { "de": ["die Investition"],      "conjugation": {} },
+  "l’agente":          { "de": ["der Polizist", "der Beamte"], "conjugation": {} },
+  "la navetta":        { "de": ["der Shuttle"],          "conjugation": {} },
+  "la stazione":       { "de": ["die Station"],          "conjugation": {} },
+
+  "la missione":       { "de": ["die Mission"],          "conjugation": {} },
+  "la capsula":        { "de": ["die Kapsel"],           "conjugation": {} },
+  "l’astronauta":      { "de": ["der Astronaut"],        "conjugation": {} },
+  "l’esperimento":     { "de": ["das Experiment"],       "conjugation": {} },
+  "la manutenzione":   { "de": ["die Wartung"],          "conjugation": {} },
+
+  "la medaglia":       { "de": ["die Medaille"],         "conjugation": {} },
+  "il bronzo":         { "de": ["die Bronze"],           "conjugation": {} },
+  "l’oro":             { "de": ["das Gold"],             "conjugation": {} },
+  "l’argento":         { "de": ["das Silber"],           "conjugation": {} },
+  "il campionato":     { "de": ["die Meisterschaft"],    "conjugation": {} }
+}

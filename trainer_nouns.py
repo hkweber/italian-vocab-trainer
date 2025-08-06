@@ -1,17 +1,16 @@
 import tkinter as tk
 import tkinter.messagebox as messagebox
-import random, os, json, time
+import random, os, json, time, re
 
 
-# ── SRS helper ────────────────────────────────────────────
+# ── SRS helper ───────────────────────────────────────────
 class SRS:
     def __init__(self, filename="srs_nouns.json"):
         self.progress_file = filename
         self.progress = self.load_progress()
 
-    def normalize_key(self, text: str) -> str:
-        # unify quotes, lowercase, trim
-        return text.lower().replace("’", "'").strip()
+    def normalize_key(self, txt: str) -> str:
+        return txt.lower().replace("’", "'").strip()
 
     def load_progress(self):
         if os.path.exists(self.progress_file):
@@ -26,10 +25,7 @@ class SRS:
     def get_due_words(self, words):
         words = [self.normalize_key(w) for w in words]
         now = time.time()
-        return [
-            w for w in words
-            if self.progress.get(w, {"due": 0})["due"] <= now
-        ]
+        return [w for w in words if self.progress.get(w, {"due": 0})["due"] <= now]
 
     def update(self, word, correct: bool):
         word = self.normalize_key(word)
@@ -41,31 +37,14 @@ class SRS:
         else:
             rec["interval"] = 1
             rec["ease"] = max(1.3, rec["ease"] - 0.2)
-        rec["due"] = now + rec["interval"] * 86_400   # 1 day
+        rec["due"] = now + rec["interval"] * 86_400
         self.progress[word] = rec
         self.save_progress()
 
 
-# ── utility functions ─────────────────────────────────────
-def load_lecture_files():
-    path = os.path.join("lectures", "nouns")
-    return [f for f in os.listdir(path) if f.endswith(".json")]
-
-
-def load_lecture(files):
-    data = {}
-    for name in files:
-        fp = os.path.join("lectures", "nouns", name)
-        with open(fp, "r", encoding="utf-8") as f:
-            part = json.load(f)
-        for k, v in part.items():
-            if isinstance(v, dict) and "de" in v:
-                data[k] = v
-    return data
-
-
-def norm(text: str) -> str:
-    return text.lower().replace("’", "'").strip()
+# ── article / plural helpers ─────────────────────────────
+def norm(txt: str) -> str:
+    return txt.lower().replace("’", "'").strip()
 
 
 def strip_article(de_word: str) -> str:
@@ -76,113 +55,217 @@ def strip_article(de_word: str) -> str:
     return de_word
 
 
-# ── main UI ───────────────────────────────────────────────
-def start_noun_trainer(previous_window):
-    previous_window.destroy()
+def _gender_from_article(article: str, noun_root: str) -> str:
+    if article in ("il", "lo"):
+        return "m"
+    if article == "la":
+        return "f"
+    if article == "l'":
+        return "f" if noun_root.endswith("a") else "m"
+    return "m"
+
+
+def italian_plural(word_with_article: str) -> str:
+    word_with_article = norm(word_with_article)
+    m = re.match(r"(il|lo|la|l')\s*('?)(.+)", word_with_article)
+    if not m:
+        return word_with_article
+    art, _, root = m.groups()
+    gender = _gender_from_article(art, root)
+
+    if gender == "f":
+        pl_art = "le"
+    else:
+        pl_art = "gli" if art in ("lo", "l'") else "i"
+
+    if   root.endswith("o"): root_pl = root[:-1] + "i"
+    elif root.endswith("a"): root_pl = root[:-1] + "e"
+    elif root.endswith("e"): root_pl = root[:-1] + "i"
+    else:                    root_pl = root
+
+    return f"{pl_art} {root_pl}"
+
+
+def indef_article(word_with_article: str) -> str:
+    word_with_article = norm(word_with_article)
+    m = re.match(r"(il|lo|la|l')\s*('?)(.+)", word_with_article)
+    if not m:
+        return "un"
+    art, _, root = m.groups()
+    gender = _gender_from_article(art, root)
+
+    if gender == "f":
+        return "un’" if root[0] in "aeiou" else "una"
+    if art == "lo" or root[:2] in ("ps", "gn") or re.match(r"[sxz][a-z]", root):
+        return "uno"
+    return "un"
+
+
+# ── file helpers ─────────────────────────────────────────
+def lecture_files():
+    p = os.path.join("lectures", "nouns")
+    return [f for f in os.listdir(p) if f.endswith(".json")]
+
+
+def load_lecture(file_list):
+    data = {}
+    for name in file_list:
+        with open(os.path.join("lectures", "nouns", name), encoding="utf-8") as f:
+            part = json.load(f)
+        for k, v in part.items():
+            if isinstance(v, dict) and "de" in v:
+                k_norm = k.replace("’", "'").strip()
+                data[k_norm] = v
+    return data
+
+
+# ── main GUI ─────────────────────────────────────────────
+def start_noun_trainer(prev):
+    prev.destroy()
     root = tk.Tk()
     root.title("Vokabeltrainer – Substantive")
 
-    srs = SRS()
-    selected_files = []
-    nouns = {}
     reverse = False
-    current_word, history, idx = None, [], -1
+    
+    # pick the right SRS file for the current direction
+    def make_srs():
+        filename = "srs_nouns_de2it.json" if reverse else "srs_nouns_it2de.json"
+        return SRS(filename)
+
+    srs = make_srs()
+
+    selected, nouns = [], {}
+    reverse = False
+    current, history, idx = None, [], -1
     stats = {"correct": 0, "wrong": 0}
 
-    # ----- helpers -----
-    def toggle_direction():
-        nonlocal reverse
+    # ----- inner helpers --------------------------------
+    def toggle_dir():
+        nonlocal reverse, srs
         reverse = not reverse
+        srs = make_srs()                     # load the other SRS file
         dir_btn.config(text=f"Richtung: {'IT→DE' if not reverse else 'DE→IT'}")
         next_word()
 
-    def refresh_selection():
-        nonlocal selected_files, nouns, history, idx
-        selected_files = [f for f, var in chk_vars.items() if var.get()]
-        if not selected_files:
-            fb_lbl.config(text="⚠️ keine Lektion gewählt", fg="orange")
+    def refresh_sel():
+        nonlocal selected, nouns, history, idx
+        selected = [f for f, v in chk_vars.items() if v.get()]
+        if not selected:
+            fb_lbl.config(text="⚠️ none selected", fg="orange")
             return
-        nouns = load_lecture(selected_files)
+        nouns = load_lecture(selected)
         history, idx = [], -1
         next_word()
 
     def next_word(_=None):
-        nonlocal current_word, idx
+        nonlocal current, idx
         if not nouns:
-            fb_lbl.config(text="⚠️ nichts geladen", fg="orange")
             return
         entry.delete(0, tk.END)
         fb_lbl.config(text="")
+
         pool = srs.get_due_words(list(nouns.keys())) or list(nouns.keys())
-        current_word = random.choice(pool)
-        history.append(current_word)
+        current = random.choice(pool)
+        history.append(current)
         idx = len(history) - 1
-        q_lbl.config(text=current_word if not reverse else nouns[current_word]["de"])
+
+        mode = current_mode.get()
+        if mode == "Translate":
+            prompt = current if not reverse else nouns[current]["de"]
+            if isinstance(prompt, list):
+                prompt = prompt[0]
+        else:          # Plural or Indef. article → always show singular IT
+            prompt = current
+
+        q_lbl.config(text=prompt)
 
     def prev_word(_=None):
-        nonlocal current_word, idx
+        nonlocal current, idx
         if idx > 0:
             idx -= 1
-            current_word = history[idx]
-            q_lbl.config(text=current_word if not reverse else nouns[current_word]["de"])
+            current = history[idx]
+            q_lbl.config(text=current)
             entry.delete(0, tk.END)
             fb_lbl.config(text="")
 
     def check(_=None):
         answer = norm(entry.get())
+        mode = current_mode.get()
 
-        if not reverse:          # IT → DE
-            corr_field = nouns[current_word]["de"]
-            corr_list = corr_field if isinstance(corr_field, list) else [corr_field]
-            corr_clean = [strip_article(norm(c)) for c in corr_list]
-            ok = strip_article(answer) in corr_clean
-        else:                    # DE → IT
-            ok = answer == norm(current_word)
+        if mode == "Translate":
+            if not reverse:
+                corr = nouns[current]["de"]
+                corr_list = corr if isinstance(corr, list) else [corr]
+                ok = strip_article(answer) in [strip_article(norm(c)) for c in corr_list]
+                correct_disp = ", ".join(corr_list) if isinstance(corr, list) else corr
+            else:
+                ok = answer == norm(current)
+                correct_disp = current
 
-                # pick the right string to show as the correct answer
-        if reverse:                       # DE → IT   → show Italian
-            correct_display = current_word
-        else:                             # IT → DE   → show German(s)
-            corr_field = nouns[current_word]["de"]
-            correct_display = ", ".join(corr_field) if isinstance(corr_field, list) else corr_field
+        elif mode == "Plural form":
+            correct_disp = italian_plural(current)
+            ok = answer == norm(correct_disp)
+
+        elif mode == "Indef. article":
+            correct_disp = indef_article(current)          # una / un / uno / un’
+            # ---- also allow "una difficoltà" etc. ----
+            # get the noun without its definite article
+            noun_root = re.sub(r"^(il|lo|la|l')\s*'?","", norm(current))
+            ok = (
+                answer == norm(correct_disp) or
+                answer == norm(f"{correct_disp} {noun_root}")
+            )
+
 
         fb_lbl.config(
-            text="✅ Richtig!" if ok else f"❌ Falsch. Korrekt: {correct_display}",
+            text="✅ Correct!" if ok else f"❌ Wrong. {correct_disp}",
             fg="green" if ok else "red"
         )
         stats["correct" if ok else "wrong"] += 1
-        srs.update(current_word, ok)
+        srs.update(current, ok)
 
     def show_stats():
-        total = stats["correct"] + stats["wrong"]
-        msg = (f"Beantwortet: {total}\n"
-               f"✅ Richtig : {stats['correct']}\n"
-               f"❌ Falsch  : {stats['wrong']}")
-        messagebox.showinfo("Statistik", msg)
+        tot = stats["correct"] + stats["wrong"]
+        messagebox.showinfo(
+            "Stats",
+            f"Answered: {tot}\n✅ {stats['correct']}\n❌ {stats['wrong']}"
+        )
 
-    # ----- UI -----
-    tk.Label(root, text="Substantiv-Übung", font=("Helvetica", 16)).pack(pady=8)
-    dir_btn = tk.Button(root, text="Richtung: IT→DE", command=toggle_direction); dir_btn.pack()
+    # ----- UI layout ------------------------------------
+    tk.Label(root, text="Substantive trainer", font=("Helvetica", 16)).pack(pady=6)
 
-    tk.Label(root, text="Lektionen wählen:").pack()
-    frm = tk.Frame(root); frm.pack()
+    dir_btn = tk.Button(root, text="Richtung: IT→DE", command=toggle_dir)
+    dir_btn.pack()
+
+    tk.Label(root, text="Choose lessons:").pack()
+    frm = tk.Frame(root)
+    frm.pack()
     chk_vars = {}
-    for f in load_lecture_files():
+    for f in lecture_files():
         var = tk.BooleanVar()
-        tk.Checkbutton(frm, text=f, variable=var, command=refresh_selection).pack(anchor="w")
         chk_vars[f] = var
+        tk.Checkbutton(frm, text=f, variable=var, command=refresh_sel).pack(anchor="w")
 
-    q_lbl = tk.Label(root, text="", font=("Helvetica", 20)); q_lbl.pack(pady=16)
+    # Exercise modes
+    modes = ("Translate", "Plural form", "Indef. article")
+    current_mode = tk.StringVar(value=modes[0])
+    tk.Label(root, text="Exercise mode:").pack(pady=(4, 0))
+    tk.OptionMenu(root, current_mode, *modes).pack()
 
-    entry = tk.Entry(root, font=("Helvetica", 16)); entry.pack(pady=4)
+    q_lbl = tk.Label(root, text="", font=("Helvetica", 20))
+    q_lbl.pack(pady=14)
+
+    entry = tk.Entry(root, font=("Helvetica", 16))
+    entry.pack(pady=4)
     entry.bind("<Return>", check)
-    entry.bind("<Up>", next_word)
-    entry.bind("<Down>", prev_word)
+    entry.bind("<Up>", next_word)     # next
+    entry.bind("<Down>", prev_word)   # previous
 
-    fb_lbl = tk.Label(root, text="", font=("Helvetica", 14)); fb_lbl.pack(pady=6)
+    fb_lbl = tk.Label(root, text="", font=("Helvetica", 14))
+    fb_lbl.pack(pady=6)
 
-    tk.Button(root, text="Weiter", command=next_word).pack(pady=4)
-    tk.Button(root, text="Statistik", command=show_stats).pack(pady=4)
-    tk.Button(root, text="Zurück", command=lambda: (root.destroy(), __import__('app').main_menu())).pack(pady=10)
+    tk.Button(root, text="Next", command=next_word).pack(pady=3)
+    tk.Button(root, text="Stats", command=show_stats).pack(pady=3)
+    tk.Button(root, text="Back", command=lambda: (root.destroy(), __import__('app').main_menu())).pack(pady=10)
 
     root.mainloop()
